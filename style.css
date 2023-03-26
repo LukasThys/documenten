@@ -1,0 +1,31 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: darkcyan;
+}
+.lab {
+	box-shadow: 3px 3px 3px 3px #9fb4f2;
+	background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+	background-color:#7892c2;
+	border-radius:20px;
+	border:12px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:28px;
+	padding:32px 76px;
+	text-decoration:none;
+	text-shadow:3px 3px 3px #283966;
+}
+.lab:hover {
+	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+	background-color:#476e9e;
+}
+.lab:active {
+	position:relative;
+	top:1px;
+}
+#tt {
+  color: darkblue;
+}
